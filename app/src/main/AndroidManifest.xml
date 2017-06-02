@@ -18,6 +18,13 @@
         </activity>
         <activity android:name=".PublicActivity"
                   android:exported="true">
+            <intent-filter>
+                <action android:name="cebu"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <data android:mimeType="text/plain"/>
+
+            </intent-filter>
         </activity>
     </application>
 
